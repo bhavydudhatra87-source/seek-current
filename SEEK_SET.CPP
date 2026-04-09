@@ -3,7 +3,7 @@
 int main()
 {
   FILE *file=fopen("example.txt","r");
-  if(file==NULL)
+  if(file==
   {
    perror("error opening file");
    return 1;
